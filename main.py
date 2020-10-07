@@ -46,6 +46,9 @@ if __name__ == '__main__':
         # Initialize the scraper class with the path to chromedriver.exe as a parameter
         scraper = ScraperUrls(DRIVER_PATH,LOG_FOLDER)
 
+        #scraper.LogIn("raul.becerra@yopmail.com","Qw123atrxz12$")
+        scraper.AddCookies()
+
         # Go to the url in the parameter
         scraper.GoToPage(str(url))
 
