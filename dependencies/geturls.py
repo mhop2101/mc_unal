@@ -19,34 +19,13 @@ class ScraperUrls():
         self.options.add_argument("--window-size=1720,1000")
         self.options.add_argument('--ignore-ssl-errors=yes')
         self.options.add_argument('--ignore-certificate-errors')
-        self.options.add_argument("--user-data-dir={}".format(os.path.join(LOG_FOLDER,'USER_DATA')))
+        #self.options.add_argument("--user-data-dir={}".format(os.path.join(LOG_FOLDER,'USER_DATA')))
         self.driver = webdriver.Chrome(options=self.options, executable_path=DRIVER_PATH)
 
-    def AddCookies(self):
-        # GET COOKIES
-        '''
-        pickle.dump( self.driver.get_cookies() , open(os.path.join(self.LOG_FOLDER,"cookies.pkl"),"wb"))
-        print(self.driver.get_cookies())
-        cookies = pickle.load(open(os.path.join(self.LOG_FOLDER,"cookies.pkl"), "rb"))
-        for cookie in cookies:
-            #self.driver.add_cookie(cookie)
-            print(cookie)
-        print('Cookies added !')
-        '''
-        '''
-        self.driver.get('https://www.metrocuadrado.com/cas/login?service=https%3A%2F%2Fwww.metrocuadrado.com%2Fmetrocuadrado-personal-account%2Flogin%2Fcas')
-        print(self.driver.manage().getCookies())
-        self.driver.find_element_by_id("registerNewUser").click()
-        sleep(2)
-        self.driver.find_element_by_id("newUserEmail").send_keys(secrets.token_hex(16) + '@yopmail.com')
-        sleep(2)
-        self.driver.find_element_by_class_name("checkReq").click()
-        sleep(2)
-        self.driver.find_element_by_id("btnCreateAccount").click()
-        sleep(2)
-        self.driver.find_element_by_id("acceptEmailSentBtn").click()
-        sleep(50)
-        '''
+    def AddFilter(self):
+        for i in range(0,121):
+            print(i,"/n")
+        sleep(120)
 
     def GoToPage(self,page):
         self.driver.get(page)

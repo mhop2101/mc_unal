@@ -41,17 +41,18 @@ if __name__ == '__main__':
         exit()
 
     if sys.argv[1] == 'get':
-        url = sys.argv[2]
+        #url = sys.argv[2]
 
         # Initialize the scraper class with the path to chromedriver.exe as a parameter
         scraper = ScraperUrls(DRIVER_PATH,LOG_FOLDER)
 
-        #scraper.LogIn("raul.becerra@yopmail.com","Qw123atrxz12$")
-        scraper.AddCookies()
-
         # Go to the url in the parameter
-        scraper.GoToPage(str(url))
+        #scraper.GoToPage(str(url))
+        scraper.GoToPage("https://www.metrocuadrado.com/")
 
+        #scraper.LogIn("raul.becerra@yopmail.com","Qw123atrxz12$")
+        scraper.AddFilter()
+        print("sleeping")
         sleep(WEBDRIVER_DELAY_EXTENDED)
 
         # Get the amount of pages that have to be iterated through
@@ -130,5 +131,5 @@ if __name__ == '__main__':
             print('Done!')
         except KeyboardInterrupt:
             print('\nPaused, run the script again to resume')
-        except JSONDecodeError:
-            print('The file urls_cleaned.json appears to have a problem')
+        #except JSONDecodeError:
+        #    print('The file urls_cleaned.json appears to have a problem')
