@@ -23,9 +23,8 @@ class ScraperUrls():
         self.driver = webdriver.Chrome(options=self.options, executable_path=DRIVER_PATH)
 
     def AddFilter(self):
-        for i in range(0,121):
-            print(i,"/n")
-        sleep(120)
+        input("Press Enter to continue...")
+
 
     def GoToPage(self,page):
         self.driver.get(page)
@@ -55,8 +54,8 @@ class ScraperUrls():
         #NextPageButton = self.driver.find_element_by_class_name("sc-bdVaJa ebNrSm page-link")
         webdriver.ActionChains(self.driver).move_to_element(NextPageButton).click(NextPageButton).perform()
         #webdriver.ActionChains(self.driver).move_to_element(Footer)
-        #sleep(2)
-        NextPageButton.click()
+
+
 
     def AcceptCookies(self):
         try:

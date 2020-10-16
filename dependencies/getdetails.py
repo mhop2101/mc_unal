@@ -40,9 +40,22 @@ class ScrapeDetails():
         title_container = soup.find("h1",{"class":"H1-xsrgru-0 jdfXCo mb-2 card-title"})
         upper_details_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cHGsZl.jfOGar')[0].find_all("h2",class_='H2-kplljn-0')
         lower_details_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-kjoXOD')[0].find_all("div",{"class":"Col-sc-14ninbu-0"})
-        characteristics_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cJSrbW.kSOVev.featureacordion')[0].find_all("div",{"class":"Card-sc-18qyd5o-0"})
+        try:
+            characteristics_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cJSrbW.kSOVev.featureacordion')[0].find_all("div",{"class":"Card-sc-18qyd5o-0"})
+            characteristics = True
+        except:
+            try:
+                characteristics_container = soup.select("div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cJSrbW.kSOVev.mb-5.sc-cJSrbW.kSOVev.mb-5.card-features.card")[0].find_all("div",{"class":"Card-sc-18qyd5o-0"})
+                characteristics = True
+            except:
+                characteristics = True
+
+
+
+
+
         json_container = soup.find("script",{"id":"__NEXT_DATA__"})
-        coordinates = json.loads(json_container.text)
+        coordinates = json.loads(str(json_container).replace("</script>","").replace('<script id="__NEXT_DATA__" type="application/json">',""))
         interior_char = ''
         exterior_char = ''
         zone_char = ''
@@ -249,28 +262,37 @@ class ScrapeDetails():
             address == ''
         else:
             if self.geocoding == True:
-                reverse_geocode_result = self.gmaps.reverse_geocode((float(latitude), float(longitude)))
-                address = reverse_geocode_result[0]['formatted_address']
+                try:
+                    reverse_geocode_result = self.gmaps.reverse_geocode((float(latitude), float(longitude)))
+                    address = reverse_geocode_result[0]['formatted_address']
+                except:
+                    address = ''
             else:
                 address = ''
 
-        for characteristic in characteristics_container:
-            if characteristic.find('span').text == 'Interiores':
-                values = characteristic.find_all('p')
-                for value in values :
-                    interior_char += value.text + '@'
-            if characteristic.find('span').text == 'Exteriores':
-                values = characteristic.find_all('p')
-                for value in values :
-                    exterior_char += value.text + '@'
-            if characteristic.find('span').text == 'Zonas comunes':
-                values = characteristic.find_all('p')
-                for value in values :
-                    zone_char += value.text + '@'
-            if characteristic.find('span').text == 'Del sector':
-                values = characteristic.find_all('p')
-                for value in values :
-                    sector_char += value.text + '@'
+        if characteristics:
+            for characteristic in characteristics_container:
+                if characteristic.find('span').text == 'Interiores':
+                    values = characteristic.find_all('p')
+                    for value in values :
+                        interior_char += value.text + '@'
+                if characteristic.find('span').text == 'Exteriores':
+                    values = characteristic.find_all('p')
+                    for value in values :
+                        exterior_char += value.text + '@'
+                if characteristic.find('span').text == 'Zonas comunes':
+                    values = characteristic.find_all('p')
+                    for value in values :
+                        zone_char += value.text + '@'
+                if characteristic.find('span').text == 'Del sector':
+                    values = characteristic.find_all('p')
+                    for value in values :
+                        sector_char += value.text + '@'
+        else:
+            sector_char = ""
+            zone_char = ""
+            exterior_char = ""
+            interior_char = ""
 
         # append the record and write to the file
         self.df.loc[len(self.df)] = [webcode,title,hood,true_hood,price,lease,area,priv_area,status,rooms,garages,baths,antiqueness,interior_char,exterior_char,zone_char,sector_char,longitude,latitude,address,url]

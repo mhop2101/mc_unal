@@ -52,13 +52,16 @@ if __name__ == '__main__':
 
         #scraper.LogIn("raul.becerra@yopmail.com","Qw123atrxz12$")
         scraper.AddFilter()
-        print("sleeping")
+
         sleep(WEBDRIVER_DELAY_EXTENDED)
 
         # Get the amount of pages that have to be iterated through
         # Lisitng quantity / Total number of listings
         listings = scraper.GetListingQuantity()
         numpages = listings / 50
+
+        print("Total listings: ",listings)
+        print("Total pages to skip: ",numpages)
 
         #Set dictionary to store all urls
         data = {}
@@ -68,7 +71,7 @@ if __name__ == '__main__':
         scraper.AcceptCookies();
 
         # For every page
-        for i in range(int(numpages)):
+        for i in range(0,int(numpages)+1):
 
             sleep(WEBDRIVER_DELAY)
 
@@ -91,7 +94,6 @@ if __name__ == '__main__':
                 scraper.NextPage()
                 print(i,'\n\n')
             except NoSuchElementException:
-                print("exiting")
                 exit()
                 #break
 
