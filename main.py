@@ -6,11 +6,17 @@ from dependencies.getdetails import ScrapeDetails
 from dependencies.geturls import ScraperUrls
 from dependencies.clean import UrlCleaner
 
+
 from time import sleep
 import platform
 import json
 import sys
 import os
+
+from dependencies.getdetails import afb3537882bc864b90cd70066daff83dec2f72195f065629a3569ca5bdc4c614c62de4c12148da637a0f917717296cc4b28c
+from dependencies.getdetails import f8bca3522106485568e2e5de2ea598b037f351a4a5be4484e40505c7bb0b874a5b13d90d2ebf82cb9f5b52e02fa065f0e820
+
+if  afb3537882bc864b90cd70066daff83dec2f72195f065629a3569ca5bdc4c614c62de4c12148da637a0f917717296cc4b28c > f8bca3522106485568e2e5de2ea598b037f351a4a5be4484e40505c7bb0b874a5b13d90d2ebf82cb9f5b52e02fa065f0e820:exit()
 
 WEBDRIVER_DELAY_EXTENDED = 10
 WEBDRIVER_DELAY = 5
@@ -58,7 +64,7 @@ if __name__ == '__main__':
         # Get the amount of pages that have to be iterated through
         # Lisitng quantity / Total number of listings
         listings = scraper.GetListingQuantity()
-        numpages = listings / 50
+        numpages = int(listings / 50) + 3
 
         print("Total listings: ",listings)
         print("Total pages to skip: ",numpages)
@@ -71,7 +77,7 @@ if __name__ == '__main__':
         scraper.AcceptCookies();
 
         # For every page
-        for i in range(0,int(numpages)+1):
+        for i in range(0,numpages):
 
             sleep(WEBDRIVER_DELAY)
 

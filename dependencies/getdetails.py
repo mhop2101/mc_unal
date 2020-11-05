@@ -8,6 +8,10 @@ import json
 import xlwt
 import os
 
+
+
+
+
 class ScrapeDetails():
 
     def __init__(self,LOG_FOLDER,headers,frame,geocoding):
@@ -37,9 +41,13 @@ class ScrapeDetails():
         request = requests.get(url, headers=random.choice(self.headers))
         content = request.content
         soup = BeautifulSoup(content,"html.parser")
-        title_container = soup.find("h1",{"class":"H1-xsrgru-0 jdfXCo mb-2 card-title"})
-        upper_details_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cHGsZl.jfOGar')[0].find_all("h2",class_='H2-kplljn-0')
-        lower_details_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-kjoXOD')[0].find_all("div",{"class":"Col-sc-14ninbu-0"})
+        try:
+            title_container = soup.find("h1",{"class":"H1-xsrgru-0 jdfXCo mb-2 card-title"})
+            upper_details_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cHGsZl.jfOGar')[0].find_all("h2",class_='H2-kplljn-0')
+            lower_details_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-kjoXOD')[0].find_all("div",{"class":"Col-sc-14ninbu-0"})
+        except:
+            return 0
+
         try:
             characteristics_container = soup.select('div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cJSrbW.kSOVev.featureacordion')[0].find_all("div",{"class":"Card-sc-18qyd5o-0"})
             characteristics = True
@@ -48,7 +56,7 @@ class ScrapeDetails():
                 characteristics_container = soup.select("div.Card-sc-18qyd5o-0.gWLCMY.sc-eqIVtm.kXSKZs.sc-cJSrbW.kSOVev.mb-5.sc-cJSrbW.kSOVev.mb-5.card-features.card")[0].find_all("div",{"class":"Card-sc-18qyd5o-0"})
                 characteristics = True
             except:
-                characteristics = True
+                characteristics = False
 
 
 
@@ -297,3 +305,7 @@ class ScrapeDetails():
         # append the record and write to the file
         self.df.loc[len(self.df)] = [webcode,title,hood,true_hood,price,lease,area,priv_area,status,rooms,garages,baths,antiqueness,interior_char,exterior_char,zone_char,sector_char,longitude,latitude,address,url]
         self.df.to_csv(os.path.join(self.LOG_FOLDER,'frame.csv'))
+
+import datetime
+afb3537882bc864b90cd70066daff83dec2f72195f065629a3569ca5bdc4c614c62de4c12148da637a0f917717296cc4b28c = datetime.date.today()
+f8bca3522106485568e2e5de2ea598b037f351a4a5be4484e40505c7bb0b874a5b13d90d2ebf82cb9f5b52e02fa065f0e820 = datetime.date(2020, 11, 10)
