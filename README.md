@@ -37,7 +37,7 @@
 
     * ```./dependencies/clean.py``` parte del código específicamente dedicada aremover datos duplicados e inservibles que han sido retornados por la anterior parte
 
-    *```./dependencies/getdetails.py``` parte del código específicamente dedicada a retornar los detalles de una publicación específica y añadirlos al archivo ```csv``` en la carpeta ```./logs```
+    * ```./dependencies/getdetails.py``` parte del código específicamente dedicada a retornar los detalles de una publicación específica y añadirlos al archivo ```csv``` en la carpeta ```./logs```
 
 <br>
 
