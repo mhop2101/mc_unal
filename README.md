@@ -28,7 +28,9 @@
 ## Estructura de directorios
 *  ```./ChromeDriverMac``` guarda el driver necesario para controlar Chrome desde python (windows)
 *  ```./ChromeDriverWin``` guarda el driver necesario para controlar Chrome desde python (mac)
- <br>
+
+<br>
+
 * ```./dependencies``` guarda todos los scripts a los cuales el archivo ```main.py``` hace referencia
 
     *  ```./dependencies/geturls.py``` parte del código específicamente dedicada aextraer las urls específicas de todas las publicaciones en la página dada
@@ -36,16 +38,14 @@
     * ```./dependencies/clean.py``` parte del código específicamente dedicada aremover datos duplicados e inservibles que han sido retornados por la anterior parte
 
     *```./dependencies/getdetails.py``` parte del código específicamente dedicada a retornar los detalles de una publicación específica y añadirlos al archivo ```csv``` en la carpeta ```./logs```
- <br>
+
+<br>
+
 *  ```./logs``` guarda los archivos con datos necesarios para hacer el scraping
-    *  ```./logs/frame.csv``` archivo csv en blanco donde se guardaran todos los datos
-de las publicaciones.
-    *  ```./logs/urls.json``` archivo json que guarda todas las urls a publicaciones
-específicas
+    *  ```./logs/frame.csv``` archivo csv en blanco donde se guardaran todos los datos de las publicaciones.
+    *  ```./logs/urls.json``` archivo json que guarda todas las urls a publicaciones específicas
 
-    *   ```./logs/urls_cleaned.json``` archivo json que guarda todos los datos de
-```./logs/urls.json``` sin ningún elemento duplicado.
-
+    *   ```./logs/urls_cleaned.json``` archivo json que guarda todos los datos de ```./logs/urls.json``` sin ningún elemento duplicado.
 ## Funciones
 * ```get```
     * crea el archivo ```urls.json``` conteniendo todas las urls de la página web que se
