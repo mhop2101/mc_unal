@@ -35,9 +35,7 @@
 
         * ```./dependencies/clean.py``` parte del código específicamente dedicada aremover datos duplicados e inservibles que han sido retornados por la anterior parte
 
-        *```./dependencies/getdetails.py``` parte del código específicamente dedicada a
-    retornar los detalles de una publicación específica y añadirlos al archivo ```csv```
-    en la carpeta ```./logs```
+        *```./dependencies/getdetails.py``` parte del código específicamente dedicada a retornar los detalles de una publicación específica y añadirlos al archivo ```csv``` en la carpeta ```./logs```
      <br>
     *  ```./logs``` guarda los archivos con datos necesarios para hacer el scraping
         *  ```./logs/frame.csv``` archivo csv en blanco donde se guardaran todos los datos
@@ -47,7 +45,6 @@
 
         *   ```./logs/urls_cleaned.json``` archivo json que guarda todos los datos de
     ```./logs/urls.json``` sin ningún elemento duplicado.
-
 ## Funciones
 * ```get```
     * crea el archivo ```urls.json``` conteniendo todas las urls de la página web que se
