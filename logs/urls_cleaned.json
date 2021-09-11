@@ -1,0 +1,394 @@
+[
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/10151-M3065223",
+        "scraped": "True"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-3-habitaciones-2-banos-1-garajes/11255-M2822451",
+        "scraped": "True"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos/2162-M2587117",
+        "scraped": "True"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/646-3490",
+        "scraped": "True"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos-2-garajes/770-M3063722",
+        "scraped": "True"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos-1-garajes/34-61621",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-2-habitaciones-3-banos-1-garajes/3147-M2712501",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-1-habitaciones-1-banos-1-garajes/5044-2796134",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-el-liston-2-habitaciones-2-banos-1-garajes/514-69",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-el-liston-2-habitaciones-2-banos-1-garajes/514-70",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-el-liston-3-habitaciones-2-banos-1-garajes/514-68",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-el-liston-2-habitaciones-2-banos-1-garajes/514-75",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/661-4632",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/MC26132834",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-2-habitaciones-2-banos-2-garajes/10323-30860",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-3-habitaciones-3-banos-2-garajes/175-10745422",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-el-liston-1-habitaciones-2-banos-1-garajes/514-262",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-el-liston-2-habitaciones-2-banos-1-garajes/514-260",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-3-habitaciones-3-banos-2-garajes/175-10745421",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-5-habitaciones-5-banos/MC3014322",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas/504-1021302",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-3-habitaciones-4-banos-2-garajes/4796-3185",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-5-habitaciones-4-banos-1-garajes/10278-M2376284",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-2-habitaciones-2-banos-1-garajes/514-184",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-1-habitaciones-2-banos-1-garajes/514-183",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-1-habitaciones-1-banos/5044-2835555",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/11451-M3039605",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/MC2911090",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/920-42150350",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-3-habitaciones-4-banos-2-garajes/2671-10353",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-3-habitaciones-3-banos-2-garajes/10858-M3032603",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-5-habitaciones-5-banos-2-garajes/342-11376",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-el-liston-1-habitaciones-2-banos-1-garajes/514-261",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-2-banos-1-garajes/MC2906398",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-5-habitaciones-5-banos-2-garajes/MC2883781",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-1-habitaciones-1-banos/MC2881689",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-1-banos-1-garajes/MC2827156",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-2-habitaciones-1-banos/MC2755076",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-2-banos-1-garajes/MC2168706",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-3-habitaciones-2-banos-1-garajes/MC2652787",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-2-habitaciones-3-banos-1-garajes/2469-M2674626",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-1-banos/382-628",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-2-habitaciones-3-banos-3-garajes/5413-2396197",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-4-habitaciones-3-banos/3222-M2808177",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-3-banos-2-garajes/10222-M3012894",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-2-habitaciones-1-banos-1-garajes/5044-M2509746",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-4-habitaciones-3-banos/MC2835897",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-3-habitaciones-2-banos-1-garajes/10300-M2907486",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-3-banos/2195-4119",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/495-1474518L8",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-3-habitaciones-2-banos/2363-1972",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-2-habitaciones-2-banos/MC2788250",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-1-habitaciones-1-banos/MC26037932",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-aguas-1-habitaciones-1-banos-1-garajes/11813-M2986852",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/5161-1337481",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-2-banos-1-garajes/989-M2874054",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos/MC2772453",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos/2821-M3017351",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-3-banos-2-garajes/10222-M3009564",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-1-habitaciones-2-banos-2-garajes/2671-10362",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2869222",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-2-habitaciones-2-banos-1-garajes/2765-M2841162",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-3-banos/MC3059330",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-3-habitaciones-3-banos-2-garajes/10222-M3055969",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-3-habitaciones-2-banos/2363-M2434818",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-2-habitaciones-2-banos/MC2866656",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-2-habitaciones-2-banos-2-garajes/11079-2665701",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-5-habitaciones-5-banos/MC26123805",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos-1-garajes/11752-M2861943",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-veracruz-5-habitaciones-5-banos/34-63358",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-eduardo-santos-3-habitaciones-2-banos/2363-2398",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos/MC26101702",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos/MC26093856",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos/34-62399",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-5-habitaciones-5-banos/34-55670",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos/MC2783658",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-5-habitaciones-2-banos/MC26071666",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos-2-garajes/10222-M3028068",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-2-banos-1-garajes/4274-M2972500",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-1-habitaciones-2-banos-2-garajes/13173-210721",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-1-habitaciones-1-banos/MC26070982",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-1-habitaciones-1-banos-1-garajes/507-1030",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2675850",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2730186",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2693100",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2839352",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2744192",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-4-habitaciones-3-banos-1-garajes/2821-M2769497",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2737460",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2762470",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-4-habitaciones-3-banos-1-garajes/2821-M2716798",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-aguas-3-habitaciones-3-banos-1-garajes/VENT-02529402",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2732783",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-la-veracruz-1-habitaciones-1-banos/MC2755360",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-las-nieves-1-habitaciones-1-banos-1-garajes/MC2586895",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-la-soledad-norte-3-habitaciones-3-banos-1-garajes/2821-M2757426",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-casa-bogota-las-aguas-4-habitaciones-4-banos-1-garajes/3072-M2527016",
+        "scraped": "False"
+    },
+    {
+        "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-aguas-2-habitaciones-2-banos-2-garajes/10222-627",
+        "scraped": "False"
+    }
+]

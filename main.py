@@ -13,11 +13,6 @@ import json
 import sys
 import os
 
-from dependencies.getdetails import afb3537882bc864b90cd70066daff83dec2f72195f065629a3569ca5bdc4c614c62de4c12148da637a0f917717296cc4b28c
-from dependencies.getdetails import f8bca3522106485568e2e5de2ea598b037f351a4a5be4484e40505c7bb0b874a5b13d90d2ebf82cb9f5b52e02fa065f0e820
-
-if  afb3537882bc864b90cd70066daff83dec2f72195f065629a3569ca5bdc4c614c62de4c12148da637a0f917717296cc4b28c > f8bca3522106485568e2e5de2ea598b037f351a4a5be4484e40505c7bb0b874a5b13d90d2ebf82cb9f5b52e02fa065f0e820:exit()
-
 WEBDRIVER_DELAY_EXTENDED = 10
 WEBDRIVER_DELAY = 5
 currentdir = os.path.dirname(os.path.realpath(__file__))
@@ -47,14 +42,14 @@ if __name__ == '__main__':
         exit()
 
     if sys.argv[1] == 'get':
-        #url = sys.argv[2]
+        url = sys.argv[2]
 
         # Initialize the scraper class with the path to chromedriver.exe as a parameter
         scraper = ScraperUrls(DRIVER_PATH,LOG_FOLDER)
 
         # Go to the url in the parameter
-        #scraper.GoToPage(str(url))
-        scraper.GoToPage("https://www.metrocuadrado.com/")
+        scraper.GoToPage(str(url))
+        #scraper.GoToPage("https://www.metrocuadrado.com/")
 
         #scraper.LogIn("raul.becerra@yopmail.com","Qw123atrxz12$")
         scraper.AddFilter()

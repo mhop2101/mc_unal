@@ -8,7 +8,7 @@
 | -------------  |:-------------:|
 | Python             | 3.7.7     |
 | Pip                | 20.1.1    |
-| Google Chrome      | 85        |
+| Google Chrome      | 93        |
 
 ## Configuracion
 
@@ -60,7 +60,7 @@ añade al archivo ```csv``` ```frame.csv```
 ## Uso
 * Extraer la url deseada de [www.metrocuadrado.com](https://www.metrocuadrado.com/)
     * Seleccionar los dos primeros criterios de búsqueda de los diferentes menús
-desplegables, escribir el tercer criterio y hacer click en el botón ```Buscar``
+desplegables, escribir el tercer criterio y hacer click en el botón ```Buscar```
     * Copiar la ```url``` en la barra buscadora del navegador
 
 <br>

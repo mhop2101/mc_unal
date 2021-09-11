@@ -38,6 +38,7 @@ class ScrapeDetails():
 
 
     def GetDetails(self,url):
+        print("----------------------------")
         request = requests.get(url, headers=random.choice(self.headers))
         content = request.content
         soup = BeautifulSoup(content,"html.parser")
@@ -303,9 +304,6 @@ class ScrapeDetails():
             interior_char = ""
 
         # append the record and write to the file
+
         self.df.loc[len(self.df)] = [webcode,title,hood,true_hood,price,lease,area,priv_area,status,rooms,garages,baths,antiqueness,interior_char,exterior_char,zone_char,sector_char,longitude,latitude,address,url]
         self.df.to_csv(os.path.join(self.LOG_FOLDER,'frame.csv'))
-
-import datetime
-afb3537882bc864b90cd70066daff83dec2f72195f065629a3569ca5bdc4c614c62de4c12148da637a0f917717296cc4b28c = datetime.date.today()
-f8bca3522106485568e2e5de2ea598b037f351a4a5be4484e40505c7bb0b874a5b13d90d2ebf82cb9f5b52e02fa065f0e820 = datetime.date(2020, 11, 10)
