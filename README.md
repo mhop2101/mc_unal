@@ -49,7 +49,7 @@
 ## Funciones
 * ```get```
     * crea el archivo ```urls.json``` conteniendo todas las urls de la página web que se
-le da como parámetro a esta función.
+le da como parámetro a esta función.  
 *``` clean```
     *  filtra el archivo ```urls.json``` con el fin de remover todos resultados duplicados,
 esta función creará el archivo ```urls_cleaned.json```
